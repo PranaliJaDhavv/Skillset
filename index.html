@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills & Tools</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+        }
+
+        .skills-section {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skills-section h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        .skills-section .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .skills-section .skills-category {
+            margin-bottom: 40px;
+        }
+
+        .skills-section .category-title {
+            font-size: 1.4em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+
+        .skills-section .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skills-section .skill-card {
+            background: #f8f9fa;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 20px 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .skills-section .skill-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            background: #fff;
+        }
+
+        .skills-section .skill-icon {
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+
+        .skills-section .skill-name {
+            font-size: 0.95em;
+            color: #2d3748;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .skills-section .proficiency {
+            font-size: 0.75em;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .skills-section h1 {
+                font-size: 2em;
+            }
+
+            .skills-section .skills-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 12px;
+            }
+
+            .skills-section .skill-card {
+                padding: 15px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="skills-section">
+        <h1>Skills & Tools</h1>
+        <p class="subtitle">Technical Business Analyst | Data Analyst</p>
+
+        <div class="skills-category">
+            <h2 class="category-title">💻 Programming & Scripting</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <div class="skill-name">Python</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <div class="skill-name">SQL</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">R Programming</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">📈 Data Visualization & BI Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">Tableau</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📉</div>
+                    <div class="skill-name">Power BI</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📈</div>
+                    <div class="skill-name">Plotly</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-name">Seaborn</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">Looker Studio</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">⚙️ Development Tools & IDEs</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📓</div>
+                    <div class="skill-name">Jupyter Notebook</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <div class="skill-name">Google Colab</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <div class="skill-name">VS Code</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <div class="skill-name">GitHub Codespaces</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <div class="skill-name">Streamlit</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">🤖 Machine Learning & Analytics</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">😊</div>
+                    <div class="skill-name">Sentiment Analysis</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <div class="skill-name">K-Means Clustering</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤗</div>
+                    <div class="skill-name">Hugging Face API</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📉</div>
+                    <div class="skill-name">Regression Analysis</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⏱️</div>
+                    <div class="skill-name">Time Series Analysis</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">🗄️ Databases & Data Engineering</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💾</div>
+                    <div class="skill-name">SQL Server</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <div class="skill-name">Data Engineering</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔄</div>
+                    <div class="skill-name">ETL Pipelines</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐘</div>
+                    <div class="skill-name">PostgreSQL</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🍃</div>
+                    <div class="skill-name">MongoDB</div>
+                    <div class="proficiency">Intermediate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">💼 Business Analysis & Management</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">👥</div>
+                    <div class="skill-name">Stakeholder Management</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📋</div>
+                    <div class="skill-name">Requirements Gathering</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">Dashboarding</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🏃</div>
+                    <div class="skill-name">Agile/Scrum</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗺️</div>
+                    <div class="skill-name">Process Mapping</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">✅</div>
+                    <div class="skill-name">UAT Testing</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2 class="category-title">📁 Office & Productivity Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">Advanced Excel</div>
+                    <div class="proficiency">Advanced</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📝</div>
+                    <div class="skill-name">Jira</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📄</div>
+                    <div class="skill-name">Confluence</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔀</div>
+                    <div class="skill-name">Git/GitHub</div>
+                    <div class="proficiency">Proficient</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+4. Click **"Commit changes"** (green button at bottom)
+
+---
+
+## **Step 4: Enable GitHub Pages**
+
+1. Go to **Settings** (in your repository)
+2. Scroll down to **"Pages"** (left sidebar)
+3. Under **"Source"**, select **"main"** branch
+4. Click **Save**
+5. Wait 1-2 minutes, then you'll see: **"Your site is published at: https://yourusername.github.io/skills-section"**
+
+---
+
+## **Step 5: Embed in Adobe Portfolio**
+
+Try pasting this URL into Adobe Portfolio's embed block:
+```
+https://PranaliJaDhavv.github.io/skillset
